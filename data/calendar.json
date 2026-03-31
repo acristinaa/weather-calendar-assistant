@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Morning walk",
+    "time": "08:30",
+    "location": "Park",
+    "is_outdoor": true
+  },
+  {
+    "title": "Team meeting",
+    "time": "11:00",
+    "location": "Office",
+    "is_outdoor": false
+  },
+  {
+    "title": "Lunch with Max, Natalie and Thorge",
+    "time": "13:00",
+    "location": "Cafe terrace",
+    "is_outdoor": true
+  },
+  {
+    "title": "Gym",
+    "time": "18:00",
+    "location": "Fitness Center",
+    "is_outdoor": false
+  }
+]
