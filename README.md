@@ -148,9 +148,10 @@ Uvicorn running on http://127.0.0.1:8000
 
 ## Notes
 
-- Weather data is real (Open-Meteo API)
-- Calendar is currently mocked using `calendar.json`
-- This keeps the project simple and focused on agent logic
+- Weather data is fetched from the Open-Meteo API
+- Calendar data is fetched from Google Calendar using the Google Calendar API
+- Google Calendar authentication currently uses a local desktop OAuth flow for development
+- This setup is intended for local testing and can be upgraded later for production deployment
 
 ---
 
