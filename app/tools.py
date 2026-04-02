@@ -1,13 +1,14 @@
 import json
 from langchain.tools import tool
-from app.services.calendar_service import load_today_events
+
+from app.services.google_calendar_service import get_today_events_from_google_calendar
 from app.services.weather_service import get_weather_data, summarize_weather
 
 
 @tool
 def get_today_events() -> str:
-    """Return today's calendar events as JSON."""
-    events = load_today_events()
+    """Return today's Google Calendar events as JSON."""
+    events = get_today_events_from_google_calendar()
     return json.dumps(events, ensure_ascii=False)
 
 
