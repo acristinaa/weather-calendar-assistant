@@ -4,5 +4,6 @@ python-dotenv
 pydantic
 pydantic-settings
 langchain
+langchain-classic
 langchain-openai
 requests
